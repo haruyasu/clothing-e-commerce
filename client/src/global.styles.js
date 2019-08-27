@@ -13,11 +13,14 @@ export const GlobalStyle = createGlobalStyle`
 	a {
 		text-decoration: none;
 		color: black;
+	}
+
+	a, a:focus {
 		outline:none;
 	}
 
-	a:focus, *:focus {
-		outline:none; 
+	button:focus {
+		outline:none;
 	}
 
 	* {
