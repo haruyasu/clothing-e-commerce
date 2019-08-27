@@ -16,7 +16,13 @@ export const GlobalStyle = createGlobalStyle`
 		outline:none;
 	}
 
+	a:focus, *:focus {
+		outline:none; 
+	}
+
 	* {
 		box-sizing: border-box;
 	}
 `;
+
+
